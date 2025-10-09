@@ -31,7 +31,7 @@
       <h2>ENGINEERING SOLUTIONS</h2>
       <div class="rule" aria-hidden="true"></div>
       <h3 class="q">Where Engineers Meet Your Vision</h3>
-      
+
     </div>
   </div>
     </section>
@@ -56,7 +56,7 @@
                     <div>
                         <i class="fa fa-phone"></i>
                         <span>
-                            <h5>+91 9986801939</h5>
+                            <h5>+91 9986501939</h5>
                             <p>Monday to Saturday 9 Am to 6 Pm</p>
                         </span>
                     </div>
@@ -87,17 +87,21 @@
 <!-------- footer ---------->
 
 
-<section class="footer">
-        <!-- <h4>About Us</h4> -->
-        <div class="icons">
-            <i class="fa fa-facebook"></i>
-            <i class="fa fa-twitter"></i>
-            <i class="fa fa-instagram"></i>
-            <i class="fa fa-linkedin"></i>
-        </div>
-            <p>“Let’s build the future together”</p>
-</section>    
-  
+  <section class="footer">
+  <div class="footer-content">
+    <h4>Follow Us</h4>
+    <div class="icons">
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+    </div>
+
+    <a href="#" class="footer-link">
+      <p>“Let’s build the future together”</p>
+    </a>
+  </div>
+</section>
   
 <!----JavaScript for toggle menu---->
 <script>
@@ -115,5 +119,75 @@
 </body>
 </html>    
 
+<style>
+    .footer {
+  background: linear-gradient(135deg, #1a237e, #283593);
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px 40px;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+}
 
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.footer h4 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+.footer .icons {
+  margin-bottom: 25px;
+}
+
+.footer .icons a {
+  display: inline-block;
+  margin: 0 10px;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+}
+
+.footer .icons a:hover {
+  background: #ffffff;
+  color: #1a237e;
+  transform: translateY(-4px);
+}
+
+.footer-link p {
+  color: #c5cae9;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-top: 20px;
+  transition: color 0.3s ease;
+}
+
+.footer-link p:hover {
+  color: #fff;
+}
+
+.footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background: #ffffff;
+  border-radius: 2px;
+}
+
+</style>
 

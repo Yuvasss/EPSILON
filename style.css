@@ -4,14 +4,17 @@
     font-family: 'Poppins', sans-serif;
 }
 .header{
-    min-height: 70vh;
+    
+    /* min-height: 70vh; */
     width: 100%;
     /* background-image: url(images/EES_banner.png); */
-    background: rgb(40 40 67);
+    /* background: rgb(40 40 67); */
+        background: linear-gradient(135deg, #1a237e, #283593);
     background-position: center;
     background-size: cover;
     position: relative;
     overflow: hidden;
+    margin-bottom: 70px;
 }
 
 nav{
@@ -635,6 +638,11 @@ h3{
 
 
 
+.brand-wrap {
+   
+    padding: 5rem 1.5rem;
+}
 
-
-
+.about-section  {
+    max-width: clamp(300px, 90%, 1200px);
+}

@@ -1,0 +1,276 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epsilon</title>
+    <link rel="icon" type="image/jpeg" href="images/Epsilon_Single_Logo.png">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+   <section class="header section-spacing">
+
+        <nav>
+            <!-- <a href="index.html"><img src="images/Epsilon_Single_Logo.png"></a> -->
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                      <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+
+                    <li><a href="sector.html">SECTORS</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="brand-wrap">
+            <div class="brand">
+                <h1>EPSILON</h1>
+                <h2>ENGINEERING SOLUTIONS</h2>
+                <div class="rule" aria-hidden="true"></div>
+                <h3 class="q">Where Engineers Meet Your Vision</h3>
+            </div>
+        </div>
+    </section>
+
+<section class="services">
+  <h1>Our Services</h1>
+
+  <div class="service-row">
+    <div class="service-img">
+      <img src="images/NPD.png" alt="New Product Design">
+    </div>
+    <div class="service-text">
+      <h2>New Product Design & Development</h2>
+      <p>Transforming ideas into reality through smart, manufacturable product design. We focus on functionality, performance, and aesthetics to deliver innovative solutions tailored to client needs.</p>
+    </div>
+  </div>
+
+  <div class="service-row reverse">
+    <div class="service-img">
+      <img src="images/MOLD TOOL.jpeg" alt="Tool Design">
+    </div>
+    <div class="service-text">
+      <h2>Tool Design</h2>
+      <p>Specialized in casting, injection molding, forming, and cutting tool design that ensures durability, precision, and manufacturing efficiency.</p>
+    </div>
+  </div>
+
+  <div class="service-row">
+    <div class="service-img">
+      <img src="images/FIXTURE..jpeg" alt="Fixture Design">
+    </div>
+    <div class="service-text">
+      <h2>Fixture Design</h2>
+      <p>Custom-designed machining, welding, inspection, and assembly fixtures to enhance accuracy, repeatability, and overall productivity.</p>
+    </div>
+  </div>
+
+  <div class="service-row reverse">
+    <div class="service-img">
+      <img src="images/INSPECTION FIXTURE.png" alt="Gauge Design">
+    </div>
+    <div class="service-text">
+      <h2>Gauge Design</h2>
+      <p>Expert development of Go/No-Go, functional, position, plug, snap, and slip gauges that ensure consistent quality control and dimensional accuracy.</p>
+    </div>
+  </div>
+
+  <div class="service-row">
+    <div class="service-img">
+      <img src="images/BIW_FIXTURE.jpeg" alt="BIW Fixture Design">
+    </div>
+    <div class="service-text">
+      <h2>BIW Fixture Design</h2>
+      <p>Comprehensive Body-in-White fixture design solutions for automotive and industrial applications, focusing on alignment accuracy, rigidity, and ease of maintenance.</p>
+    </div>
+  </div>
+
+  <div class="service-row reverse">
+    <div class="service-img">
+      <img src="images/3D_MODELING.jpeg" alt="3D Modeling & Drafting">
+    </div>
+    <div class="service-text">
+      <h2>3D Modeling & Drafting</h2>
+      <p>High-quality 3D modeling, detailing, and drafting services using industry-leading CAD tools such as SolidWorks, CATIA, Creo, Autodesk Inventor, and AutoCAD — ensuring clarity, manufacturability, and precision.</p>
+    </div>
+  </div>
+</section>
+
+    <section class="footer section-spacing">
+  <div class="footer-content">
+    <h4>Follow Us</h4>
+    <div class="icons">
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+    </div>
+
+    <a href="#" class="footer-link">
+      <p>“Let’s build the future together”</p>
+    </a>
+  </div>
+</section>
+
+</body>
+</html>
+
+<style>
+    .footer {
+  background: linear-gradient(135deg, #1a237e, #283593);
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px 40px;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.footer h4 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+.footer .icons {
+  margin-bottom: 25px;
+}
+
+.footer .icons a {
+  display: inline-block;
+  margin: 0 10px;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+}
+
+.footer .icons a:hover {
+  background: #ffffff;
+  color: #1a237e;
+  transform: translateY(-4px);
+}
+
+.footer-link p {
+  color: #c5cae9;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-top: 20px;
+  transition: color 0.3s ease;
+}
+
+.footer-link p:hover {
+  color: #fff;
+}
+
+.footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background: #ffffff;
+  border-radius: 2px;
+}
+body {
+  
+overflow-x: hidden;
+overflow-y: auto;
+}
+
+
+
+.services {
+  /* padding: 80px 20px; */
+    padding: 5px 20px;
+
+  background: #f9f9f9;
+  font-family: "Poppins", sans-serif;
+}
+
+.services h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #1a237e;
+  margin-bottom: 60px;
+}
+
+.service-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  flex-wrap: wrap;
+}
+
+.service-row.reverse {
+  flex-direction: row-reverse;
+}
+
+.service-img {
+  flex: 1 1 45%;
+  padding: 10px;
+  text-align: center;
+}
+
+.service-img img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.service-text {
+  flex: 1 1 50%;
+  padding: 20px;
+}
+
+.service-text h2 {
+  font-size: 1.8rem;
+  color: #303f9f;
+  margin-bottom: 15px;
+}
+
+.service-text p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.7;
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .service-row,
+  .service-row.reverse {
+    flex-direction: column;
+  }
+
+  .service-img,
+  .service-text {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+
+  .service-text {
+    padding: 10px 0;
+  }
+}
+
+</style>

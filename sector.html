@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sectors | Epsilon</title>
+  
+     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+       <section class="header section-spacing">
+
+        <nav>
+            <!-- <a href="index.html"><img src="images/Epsilon_Single_Logo.png"></a> -->
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                        <li><a href="index.html">HOME</a></li> 
+                    <li><a href="about.html">ABOUT</a></li>
+
+                    <li><a href="sector.html">SECTORS</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="brand-wrap">
+            <div class="brand">
+                <h1>EPSILON</h1>
+                <h2>ENGINEERING SOLUTIONS</h2>
+                <div class="rule" aria-hidden="true"></div>
+                <h3 class="q">Where Engineers Meet Your Vision</h3>
+            </div>
+        </div>
+    </section>
+  <section class="sector-page">
+    <h1>Sector</h1>
+    <p class="intro">Serving Diverse Engineering and Manufacturing Domains</p>
+
+    <div class="sector-block">
+      <h2>Automotive Industry</h2>
+      <ul>
+        <li>BIW fixture design</li>
+        <li>Gauge design</li>
+        <li>Tool design for automotive components, subassemblies, and production systems</li>
+      </ul>
+    </div>
+
+    <div class="sector-block">
+      <h2>Aerospace Sector</h2>
+      <ul>
+        <li>High-precision tooling</li>
+        <li>Fixture and component design for lightweight and complex aerospace structures</li>
+        <li>Focus on reliability and performance</li>
+      </ul>
+    </div>
+
+    <div class="sector-block">
+      <h2>Defence Industry</h2>
+      <ul>
+        <li>Robust, mission-ready components</li>
+        <li>Fixtures and tools meeting defence-grade quality and precision standards</li>
+      </ul>
+    </div>
+
+    <div class="sector-block">
+      <h2>Medical Equipment & Devices</h2>
+      <ul>
+        <li>Precision tools and fixtures</li>
+        <li>Components for medical and healthcare applications</li>
+        <li>Ensures compliance, safety, and accuracy</li>
+      </ul>
+    </div>
+
+    <div class="sector-block">
+      <h2>Industrial Machinery & Equipment</h2>
+      <ul>
+        <li>End-to-end 3D modeling</li>
+        <li>Fixture and tool design for efficient assembly and manufacturing</li>
+      </ul>
+    </div>
+
+    <div class="sector-block">
+      <h2>Consumer Products & Appliances</h2>
+      <ul>
+        <li>Innovative product design</li>
+        <li>Development services combining aesthetics, usability, and manufacturability</li>
+      </ul>
+    </div>
+
+    <div class="sector-block">
+      <h2>Manufacturing & Tooling Industry</h2>
+      <ul>
+        <li>Advanced casting</li>
+        <li>Injection molding</li>
+        <li>Forming and cutting tool design</li>
+        <li>Improves productivity and product quality</li>
+      </ul>
+    </div>
+
+    <div class="sector-block">
+      <h2>General Engineering & Fabrication</h2>
+      <ul>
+        <li>Inspection fixtures</li>
+        <li>Welding and assembly fixtures</li>
+        <li>Enhances process precision and reduces operational downtime</li>
+      </ul>
+    </div>
+
+    <p class="goal">
+      Our goal is to help clients across these sectors achieve engineering excellence, cost efficiency, and faster time-to-market through superior design solutions.
+    </p>
+  </section>
+      <section class="footer section-spacing">
+  <div class="footer-content">
+    <h4>Follow Us</h4>
+    <div class="icons">
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+    </div>
+
+    <a href="#" class="footer-link">
+      <p>“Let’s build the future together”</p>
+    </a>
+  </div>
+</section>
+
+</body>
+</html>
+ <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Poppins", sans-serif;
+      background: #f4f6f8;
+      color: #333;
+    }
+
+    .sector-page {
+      width: 100%;
+      min-height: 100vh;
+      padding: 60px 5vw;
+      background: linear-gradient(to bottom, #ffffff, #f0f4ff);
+    }
+
+    .sector-page h1 {
+      font-size: 3rem;
+      color: #1a237e;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .intro {
+      text-align: center;
+      font-size: 1.2rem;
+      margin-bottom: 50px;
+      color: #555;
+    }
+
+    .sector-block {
+      background: #ffffff;
+      padding: 40px 30px;
+      margin-bottom: 30px;
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+      transition: transform 0.3s ease;
+    }
+
+    .sector-block:hover {
+      transform: translateY(-4px);
+    }
+
+    .sector-block h2 {
+      font-size: 2rem;
+      color: #303f9f;
+      margin-bottom: 15px;
+    }
+
+    .sector-block ul {
+      padding-left: 20px;
+      list-style-type: disc;
+    }
+
+    .sector-block li {
+      font-size: 1.05rem;
+      color: #555;
+      line-height: 1.8;
+      margin-bottom: 8px;
+    }
+
+    .goal {
+      font-size: 1.1rem;
+      color: #444;
+      text-align: center;
+      margin-top: 50px;
+      line-height: 1.6;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    @media (max-width: 768px) {
+      .sector-page {
+        padding: 40px 20px;
+      }
+
+      .sector-block h2 {
+        font-size: 1.5rem;
+      }
+
+      .sector-block li,
+      .goal {
+        font-size: 1rem;
+      }
+    }
+
+
+    .footer {
+  background: linear-gradient(135deg, #1a237e, #283593);
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px 40px;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.footer h4 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+.footer .icons {
+  margin-bottom: 25px;
+}
+
+.footer .icons a {
+  display: inline-block;
+  margin: 0 10px;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+}
+
+.footer .icons a:hover {
+  background: #ffffff;
+  color: #1a237e;
+  transform: translateY(-4px);
+}
+
+.footer-link p {
+  color: #c5cae9;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-top: 20px;
+  transition: color 0.3s ease;
+}
+
+.footer-link p:hover {
+  color: #fff;
+}
+
+.footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background: #ffffff;
+  border-radius: 2px;
+}
+
+
+  </style>

@@ -69,17 +69,18 @@
                     </div>
                 </div>
                 <div class="contact-col">
-                    <form method="post" action="contact-form-handler.php">
-                    <input type="text" name="name" placeholder="Enter your name" required>
-                    <input type="email" name="email" placeholder="Enter email address" required>
-                    <input type="text" name="subject" placeholder="Enter subject" required>
+                    <!-- <form method="post" action="contact-form-handler.php"> -->
+                      <!-- <form> -->
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    <input type="email" id="email" name="email" placeholder="Enter email address" required>
+                    <input type="text" id="subject" name="subject" placeholder="Enter subject" required>
 
 <input type="tel" name="number" id="phone" placeholder="Enter your phone number"
        maxlength="10" pattern="\d{10}" required
        title="Enter a 10-digit phone number">
-                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
-                    <button type="submit" class="hero-btn red-btn">Send Message</button>
-                    </form> 
+                    <textarea rows="8" name="message" id="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn" onclick="sendToWhatsApp()">Send Message</button>
+                    <!-- </form>  -->
                 </div>
             </div>
     </section>
@@ -114,6 +115,22 @@
     function hideMenu() {
         navLinks.style.right = "-200px";
     }
+
+   
+   function sendToWhatsApp() {
+      const receiver = "919986501939"; // ✅ Your WhatsApp number (no +, no spaces)
+      const name = document.getElementById("name").value.trim();
+      const email = document.getElementById("email").value.trim();
+      const subject = document.getElementById("subject").value.trim();
+      const phone = document.getElementById("phone").value.trim();
+      const message = document.getElementById("message").value.trim();
+
+      const text = `*New Contact Form Message*\n\n👤 *Name:* ${name}\n📧 *Email:* ${email}\n📞 *Phone:* ${phone}\n📝 *Subject:* ${subject}\n💬 *Message:* ${message}`;
+      const encodedText = encodeURIComponent(text);
+
+      window.open(`https://wa.me/${receiver}?text=${encodedText}`, "_blank");
+    }
+
 </script> 
     
 </body>
